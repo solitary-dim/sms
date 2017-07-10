@@ -1,0 +1,124 @@
+body{
+margin:0px;
+background:url("../img/main_bg.jpg");
+}
+
+.s_body{
+width:1000px;
+margin:0 auto;
+position:relative;
+height:auto;
+min-height:100%;
+color:#000;
+}
+.main{
+	min-height:80%;
+	width:1000px;
+padding-bottom:50px;
+}
+/*-----------------------ͷ��------------------------*/
+.head_1{
+width:1000px;
+height:50px;
+}
+.head_1 a:link{text-decoration: none;color:red}
+.head_1 a:visited{text-decoration: none;color:red}
+.head_1 a:hover{text-decoration: none;color: #66ddff}
+.head_left{
+width:440px;
+height:50px;
+float:left;
+font-size:38px;
+color:#000;
+margin-top:21px;
+}
+.logo{
+float:right;
+margin-top:-21px;
+}
+.head_right{
+width:200px;
+height:30px;
+float:right;
+font-size:12px;
+text-align:right;
+margin-top:20px;
+}
+.tab{
+@copyRight
+width:1000px;
+margin-top: 2em;
+}
+.top{
+width:120px;
+height:20px;
+float:left;
+}
+.tab_1{
+width:100px;
+height:30px;
+background-color:#c7defc;
+}
+
+
+/*-------------------����---------------------*/
+
+.button{
+	border-radius:4px;
+}
+@-webkit-keyframes bluePulse {
+	  from { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }
+	  50% { background-color: #2daebf; -webkit-box-shadow: 0 0 18px #2daebf; }
+	  to { background-color: #007d9a; -webkit-box-shadow: 0 0 9px #333; }
+	}
+@-webkit-keyframes greenPulse {
+	  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+	  50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+	  to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+	}
+.green.button {
+	 -webkit-animation-name: greenPulse;
+	  -webkit-animation-duration: 3s;
+	  }
+.blue.button { 
+	-webkit-animation-name: bluePulse;
+	 -webkit-animation-duration: 3s; 
+	  font-size: 1.1em;
+}
+a.button {
+		-webkit-animation-duration: 4s;
+		-webkit-animation-iteration-count: infinite; 
+	}
+	button,.button {
+	    border-style: solid;
+	    border-width: 0;
+	    cursor: pointer;
+	    font-family: inherit;
+	    font-weight: bold;
+	    line-height: normal;
+	    position: relative;
+	    text-decoration: none;
+	    text-align: center;
+	    display: inline-block;
+	    padding-top: 0.75em;
+	    padding-right: 1.5em;
+	    padding-bottom: 0.8125em;
+	    padding-left: 1.5em;
+	    font-size: 0.8em;
+	    background-color: #2daebf;
+	    border-color: #238896;
+	    color: white
+	}
+
+/*----------------------�в�-----------------------*/
+
+
+/*-----------------------�ײ�-------------------------*/
+
+.foot{
+width:1000px;
+position:absolute;
+bottom:0;
+left:0;
+height:50px;
+}
