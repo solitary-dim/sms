@@ -1,276 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="2.5"
-	xmlns="http://java.sun.com/xml/ns/javaee"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>EmLoginServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.EmLoginServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowEmServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.ShowEmServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowEmByIdServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.ShowEmByIdServlet</servlet-class>
-  </servlet>
-   <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowEmByIdServlet2</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.ShowEmByIdServlet2</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowEByIdServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.ShowEByIdServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>UpdateEmServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.UpdateEmServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>UpdateEpwdServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.UpdateEpwdServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>RoLoginServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.RoLoginServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowRoByIdServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.ShowRoByIdServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowRByIdServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.ShowRByIdServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>UpdateRoServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.UpdateRoServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>UpdateRpwdServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.UpdateRpwdServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowRoServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.ShowRoServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>SAEmServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.SAEmServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>UpdateEmServlet2</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.imp.UpdateEmServlet2</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>HrLoginServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.hr.HrLoginServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowHrServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.hr.ShowHrServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowHServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.hr.ShowHServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>UpdateHrById</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.hr.UpdateHrById</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>UpdateHpwdServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.hr.UpdateHpwdServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>ShowRoByIdServlet2</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.hr.ShowRoByIdServlet2</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>UpdateRoServlet2</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.hr.UpdateRoServlet2</servlet-class>
-  </servlet>
-   <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>AddTaskServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.task.AddTaskServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <description>This is the description of my J2EE component</description>
-    <display-name>This is the display name of my J2EE component</display-name>
-    <servlet-name>SelectTaskServlet</servlet-name>
-    <servlet-class>com.omdes.sms.domain.servlet.task.SelectTaskServlet</servlet-class>
-  </servlet>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <servlet-mapping>
-    <servlet-name>EmLoginServlet</servlet-name>
-    <url-pattern>/EmLoginServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowEmServlet</servlet-name>
-    <url-pattern>/ShowEmServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowEmByIdServlet</servlet-name>
-    <url-pattern>/ShowEmByIdServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowEmByIdServlet2</servlet-name>
-    <url-pattern>/ShowEmByIdServlet2</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowEByIdServlet</servlet-name>
-    <url-pattern>/ShowEByIdServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>UpdateEmServlet</servlet-name>
-    <url-pattern>/UpdateEmServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>UpdateEpwdServlet</servlet-name>
-    <url-pattern>/UpdateEpwdServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>RoLoginServlet</servlet-name>
-    <url-pattern>/RoLoginServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowRoByIdServlet</servlet-name>
-    <url-pattern>/ShowRoByIdServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowRByIdServlet</servlet-name>
-    <url-pattern>/ShowRByIdServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>UpdateRoServlet</servlet-name>
-    <url-pattern>/UpdateRoServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>UpdateRpwdServlet</servlet-name>
-    <url-pattern>/UpdateRpwdServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowRoServlet</servlet-name>
-    <url-pattern>/ShowRoServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>SAEmServlet</servlet-name>
-    <url-pattern>/SAEmServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>UpdateEmServlet2</servlet-name>
-    <url-pattern>/UpdateEmServlet2</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>HrLoginServlet</servlet-name>
-    <url-pattern>/HrLoginServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowHrServlet</servlet-name>
-    <url-pattern>/ShowHrServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowHServlet</servlet-name>
-    <url-pattern>/ShowHServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>UpdateHrById</servlet-name>
-    <url-pattern>/UpdateHrById</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>UpdateHpwdServlet</servlet-name>
-    <url-pattern>/UpdateHpwdServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>ShowRoByIdServlet2</servlet-name>
-    <url-pattern>/ShowRoByIdServlet2</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>UpdateRoServlet2</servlet-name>
-    <url-pattern>/UpdateRoServlet2</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>AddTaskServlet</servlet-name>
-    <url-pattern>/AddTaskServlet</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>SelectTaskServlet</servlet-name>
-    <url-pattern>/SelectTaskServlet</url-pattern>
-  </servlet-mapping>
-  <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
-  </welcome-file-list>
-  
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/config/spring/applicationContext.xml</param-value>
+  </context-param>
   <filter>
-  	<filter-name>EncodingFilter</filter-name>
-  	<filter-class>com.omdes.sms.domain.config.EncodingFilter</filter-class>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+    <init-param>
+      <param-name>forceEncoding</param-name>
+      <param-value>false</param-value>
+    </init-param>
   </filter>
-  
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>actionMapping</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>/WEB-INF/config/spring/webContext.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <!--define mapping-->
+  <servlet-mapping>
+    <servlet-name>actionMapping</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
   <filter-mapping>
-  	<filter-name>EncodingFilter</filter-name>
-  	<url-pattern>/*</url-pattern>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
   </filter-mapping>
+
 </web-app>

@@ -4,8 +4,6 @@ import com.xingtai.sms.domain.dao.RoDao;
 import com.xingtai.sms.domain.dao.imp.RoDaoImp;
 import com.xingtai.sms.domain.entity.Ro;
 import com.xingtai.sms.domain.service.RoService;
-import com.xingtai.sms.domain.dao.imp.RoDaoImp;
-import com.xingtai.sms.domain.service.RoService;
 
 import java.util.List;
 

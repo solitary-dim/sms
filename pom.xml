@@ -13,11 +13,28 @@
         <mybatis-version>3.3.1</mybatis-version>
         <mybatis.spring-version>1.2.4</mybatis.spring-version>
         <druid-version>1.0.17</druid-version>
+        <fastjson-version>1.2.32</fastjson-version>
+        <jstl-version>1.2</jstl-version>
         <slf4j-version>1.7.21</slf4j-version>
-        <guava-version>18.0</guava-version>
+        <mysqljdbc-version>5.1.34</mysqljdbc-version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>${org.springframework-version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
@@ -50,6 +67,19 @@
             <artifactId>druid</artifactId>
             <version>${druid-version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson-version}</version>
+        </dependency>
+
+        <!--JSP jstl-->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl-version}</version>
+            <scope>provided</scope>
+        </dependency>
 
         <!--slf4j log-->
         <dependency>
@@ -63,25 +93,23 @@
             <version>${slf4j-version}</version>
         </dependency>
 
-        <!--HTML解析器-->
-        <dependency>
-            <groupId>org.jsoup</groupId>
-            <artifactId>jsoup</artifactId>
-            <version>1.8.3</version>
-        </dependency>
-
         <!--MySQL-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
+            <version>${mysqljdbc-version}</version>
         </dependency>
 
-        <!--GUAVA-->
+        <!-- 文件上传 -->
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>${guava-version}</version>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.2.2</version>
         </dependency>
     </dependencies>
 

@@ -3,7 +3,6 @@ package com.xingtai.sms.domain.dao.imp;
 import com.xingtai.sms.domain.dao.RoDao;
 import com.xingtai.sms.domain.entity.Ro;
 import com.xingtai.sms.domain.jdbc.JdbcUtil;
-import com.xingtai.sms.domain.jdbc.JdbcUtil;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

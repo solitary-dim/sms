@@ -51,7 +51,7 @@ function passWord(password1){
 	}
 	
 }
-function ps(){
+function login(){
 
 	var str1=document.rform.eusername.value;
 	var str2=document.rform.epwd.value;

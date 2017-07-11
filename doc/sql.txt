@@ -1,0 +1,11 @@
+CREATE TABLE `t_task` (
+  `id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `deleted_flag` SMALLINT(1) NOT NULL DEFAULT '0',
+  `status` SMALLINT(1) NOT NULL DEFAULT '0',
+  `created_time` DATETIME DEFAULT NULL,
+  `created_user_id` BIGINT(20) DEFAULT NULL,
+  `updated_time` DATETIME DEFAULT NULL,
+  `updated_user_id` BIGINT(20) DEFAULT NULL,
+  `content` MEDIUMTEXT NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=INNODB DEFAULT CHARSET=utf8 COMMENT='»ŒŒÒ¡Ù—‘±Ì'

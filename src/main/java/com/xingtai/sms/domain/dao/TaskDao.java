@@ -1,7 +1,6 @@
 package com.xingtai.sms.domain.dao;
 
 import com.xingtai.sms.domain.entity.Task;
-import com.xingtai.sms.domain.entity.Task;
 
 import java.util.List;
 

@@ -1,7 +1,6 @@
 package com.xingtai.sms.domain.service;
 
 import com.xingtai.sms.domain.entity.Employee;
-import com.xingtai.sms.domain.entity.Employee;
 
 import java.util.List;
 

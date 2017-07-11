@@ -2,9 +2,11 @@ package com.xingtai.sms.web;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Solitary.Wang
- * Date: 2017/7/10
- * Time: 21:43
+ * User: solitary.wang
+ * Date: 2017/7/11
+ * Time: 9:56
  */
 public final class WebURIConstants {
+
+    public static final String URI_INDEX = "actions/index";
 }

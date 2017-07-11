@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+    <context:property-placeholder location="classpath*:sysconfig.properties"/>
+    <context:component-scan base-package="com.xingtai.sms.web"/>
+
+    <!--解决ResponseBody返回中文乱码问题-->
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <property name="messageConverters">
+            <util:list>
+                <bean id="mappingFastJsonHttpMessageConverter"
+                      class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                    <property name="features">
+                        <array>
+                            <value>WriteMapNullValue</value>
+                            <value>WriteNullListAsEmpty</value>
+                            <value>WriteNullNumberAsZero</value>
+                            <value>WriteNullStringAsEmpty</value>
+                            <value>WriteNullBooleanAsFalse</value>
+                        </array>
+                    </property>
+                    <property name="supportedMediaTypes">
+                        <list>
+                            <value>application/json</value>
+                            <value>text/json</value>
+                        </list>
+                    </property>
+                </bean>
+            </util:list>
+        </property>
+    </bean>
+</beans>

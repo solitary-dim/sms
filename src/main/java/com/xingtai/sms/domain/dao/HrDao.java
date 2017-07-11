@@ -1,7 +1,6 @@
 package com.xingtai.sms.domain.dao;
 
 import com.xingtai.sms.domain.entity.Hr;
-import com.xingtai.sms.domain.entity.Hr;
 
 /**
  * Created with IntelliJ IDEA.
