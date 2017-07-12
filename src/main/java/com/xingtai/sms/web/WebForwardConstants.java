@@ -8,5 +8,5 @@ package com.xingtai.sms.web;
  */
 public final class WebForwardConstants {
 
-    public static final String FWD_LOGIN = "login.jsp";
+    public static final String FWD_LOGIN = "login";
 }

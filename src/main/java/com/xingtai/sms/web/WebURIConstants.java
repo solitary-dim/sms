@@ -7,6 +7,7 @@ package com.xingtai.sms.web;
  * Time: 9:56
  */
 public final class WebURIConstants {
+    public static final String BASE_URI = "/actions/";
 
-    public static final String URI_INDEX = "actions/index";
+    public static final String URI_LOGIN = "/login";
 }
