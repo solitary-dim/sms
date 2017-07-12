@@ -11,23 +11,23 @@ import java.util.List;
  * Time: 20:38
  */
 public interface EmployeeDao {
-	public boolean checkname(String eusername);
-	public boolean checkpwd(String epwd);
-	public Employee checkall(String eusername, String epwd);
-	public List<Employee> showEmployee();
-	public Employee selectEmployeeById(int eid);
-	public boolean updateEmployeeById(int eid, String eusername,
+	boolean checkname(String eusername);
+	boolean checkpwd(String epwd);
+	Employee checkall(String eusername, String epwd);
+	List<Employee> showEmployee();
+	Employee selectEmployeeById(int eid);
+	boolean updateEmployeeById(int eid, String eusername,
 									  String emobileno, String eemail, String eskills);
-	public boolean updateEmployeeById(int eid, String epwd);
-	public boolean updateEmployeeById(int eid, String ename, String eusername,
+	boolean updateEmployeeById(int eid, String epwd);
+	boolean updateEmployeeById(int eid, String ename, String eusername,
 									  String esex, int eage, String eskills, String eemail,
 									  String eno, String emobileno, String eteam);
-	public boolean addEmployee(String ename, String eusername,
+	boolean addEmployee(String ename, String eusername,
 							   String esex, int eage, String eskills, String eemail,
 							   String eno, String emobileno, String eteam);
-	public boolean deleteEmployeeById(int eid);
-	public List<Employee> selectEmployeeById(String eteam);
-	public boolean editp(int eid, int performance);
-	public boolean editrp(int eid, int rper);
-	public int rperAvg(String eteam);
+	boolean deleteEmployeeById(int eid);
+	List<Employee> selectEmployeeById(String eteam);
+	boolean editp(int eid, int performance);
+	boolean editrp(int eid, int rper);
+	int rperAvg(String eteam);
 }

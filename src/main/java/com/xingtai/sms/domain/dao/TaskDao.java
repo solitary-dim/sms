@@ -11,8 +11,8 @@ import java.util.List;
  * Time: 20:38
  */
 public interface TaskDao {
-	public boolean addTask(String task, String team, String publisher);
-	public List<Task> selectTask(String team);
+	boolean addTask(String task, String team, String publisher);
+	List<Task> selectTask(String team);
 	
 
 }

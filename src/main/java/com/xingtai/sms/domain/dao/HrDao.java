@@ -9,11 +9,11 @@ import com.xingtai.sms.domain.entity.Hr;
  * Time: 20:38
  */
 public interface HrDao {
-	public boolean checkname(String husername);
-	public boolean checkpwd(String hpwd);
-	public Hr checkall(String husername, String hpwd);
-	public Hr selectHrById(int hid);
-	public boolean updateHrById(int hid, String husername,
+	boolean checkname(String husername);
+	boolean checkpwd(String hpwd);
+	Hr checkall(String husername, String hpwd);
+	Hr selectHrById(int hid);
+	boolean updateHrById(int hid, String husername,
 								String hmobileno, String hemail);
-	public boolean updateHrById(int hid, String hpwd);
+	boolean updateHrById(int hid, String hpwd);
 }

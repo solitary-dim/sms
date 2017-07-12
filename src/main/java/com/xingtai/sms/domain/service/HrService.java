@@ -9,9 +9,9 @@ import com.xingtai.sms.domain.entity.Hr;
  * Time: 20:38
  */
 public interface HrService {
-	public Hr checkall(String husername, String hpwd);
-	public Hr selectHrById(int hid);
-	public boolean updateHrById(int hid, String husername,
+	Hr checkall(String husername, String hpwd);
+	Hr selectHrById(int hid);
+	boolean updateHrById(int hid, String husername,
 								String hmobileno, String hemail);
-	public boolean updateHrById(int hid, String hpwd);
+	boolean updateHrById(int hid, String hpwd);
 }
