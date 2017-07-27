@@ -4,145 +4,145 @@
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>EmLoginServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.EmLoginServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.EmLoginServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowEmServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.ShowEmServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.ShowEmServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowEmByIdServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.ShowEmByIdServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.ShowEmByIdServlet</servlet-class>
   </servlet>
    <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowEmByIdServlet2</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.ShowEmByIdServlet2</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.ShowEmByIdServlet2</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowEByIdServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.ShowEByIdServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.ShowEByIdServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateEmServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.UpdateEmServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.UpdateEmServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateEpwdServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.UpdateEpwdServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.UpdateEpwdServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>RoLoginServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.RoLoginServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.RoLoginServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowRoByIdServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.ShowRoByIdServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.ShowRoByIdServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowRByIdServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.ShowRByIdServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.ShowRByIdServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateRoServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.UpdateRoServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.UpdateRoServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateRpwdServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.UpdateRpwdServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.UpdateRpwdServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowRoServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.ShowRoServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.ShowRoServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>SAEmServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.SAEmServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.SAEmServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateEmServlet2</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.imp.UpdateEmServlet2</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.imp.UpdateEmServlet2</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>HrLoginServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.hr.HrLoginServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.hr.HrLoginServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowHrServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.hr.ShowHrServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.hr.ShowHrServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowHServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.hr.ShowHServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.hr.ShowHServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateHrById</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.hr.UpdateHrById</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.hr.UpdateHrById</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateHpwdServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.hr.UpdateHpwdServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.hr.UpdateHpwdServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>ShowRoByIdServlet2</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.hr.ShowRoByIdServlet2</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.hr.ShowRoByIdServlet2</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>UpdateRoServlet2</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.hr.UpdateRoServlet2</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.hr.UpdateRoServlet2</servlet-class>
   </servlet>
    <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>AddTaskServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.task.AddTaskServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.task.AddTaskServlet</servlet-class>
   </servlet>
   <servlet>
     <description>This is the description of my J2EE component</description>
     <display-name>This is the display name of my J2EE component</display-name>
     <servlet-name>SelectTaskServlet</servlet-name>
-    <servlet-class>com.xingtai.sms.servlet.task.SelectTaskServlet</servlet-class>
+    <servlet-class>com.jsdtkj.sms.servlet.task.SelectTaskServlet</servlet-class>
   </servlet>
 
 
@@ -262,7 +262,7 @@
   
   <filter>
   	<filter-name>EncodingFilter</filter-name>
-  	<filter-class>com.xingtai.sms.configure.EncodingFilter</filter-class>
+  	<filter-class>com.jsdtkj.sms.configure.EncodingFilter</filter-class>
   </filter>
   
   <filter-mapping>

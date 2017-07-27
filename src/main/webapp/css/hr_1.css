@@ -84,7 +84,7 @@ table {
     -webkit-border-radius: 0 0 6px 0;
     border-radius: 0 0 6px 0;
 }
-//监管信息
+
 .bordered a:link{text-decoration: none; color: blue}
 .bordered a:visited{text-decoration: none; color: blue}
 .bordered a:hover{text-decoration: none; color: red}
@@ -134,5 +134,5 @@ height:20px;
 	height:20px;
 	text-align:center;
 }
-//按钮
+
 

@@ -8,7 +8,7 @@
 	width:800px;
 
 }
-//���
+
 table {
     *border-collapse: collapse; /* IE7 and lower */
     border-spacing: 0;
@@ -90,7 +90,7 @@ table {
     -webkit-border-radius: 0 0 6px 0;
     border-radius: 0 0 6px 0;
 }
-//��ť
+
 .button{
 	border-radius:4px;
 }

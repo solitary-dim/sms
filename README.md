@@ -1,2 +1,2 @@
 # sms
-a staff manage system
+a simple staff manage system
